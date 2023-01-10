@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --main-color: #F03c42;
+    --bg-light-grey: #E5E5E5;
+    --text-grey: #5E5E5E;
+    --color-yellow: #FFF964;
+    --color-white: #FFFFFF;
+    --text-green: #02B814;
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--main-color);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+nav h1 {
+    text-align: center;
+    color: var(--color-yellow);
+    font-size: 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#pizzas {
+    padding: 20px 15px;
+    background-color: var(--bg-light-grey);
+}
+
+.pizza-card img {
+    border-radius: 12px 0px 0px 12px;
+    width: 200px;
+}
+
+.pizza-card {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.pizza-card-description {
+    background-color: var(--color-white);
+    border-radius: 0px 12px 12px 0px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pizza-card-description h3 {
+    color: var(--text-grey);
+    font-size: 24px;
+}
+
+.pizza-card-description p {
+    color: var(--text-grey);
+    font-size: 14px;
+}
+
+.pizza-card-description h4 {
+    color: var(--text-green);
+    font-size: 24px;
+}
+
+#comments {
+    padding: 40px 15px;
+
+}
+
+#comments h2 {
+    text-align: center;
+    font-size: 32px;
+    color: var(--text-grey);
+}
+
+.card-comment {
+    padding: 25px 20px;
+    background-color: var(--color-yellow);
+    color: var(--main-color);
+    border-radius: 12px;
+    margin: 38px;
+
+}
+
+footer {
+    height: 120px;
+    background-color: var(--main-color);
+    color: var(--color-yellow);
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.generic-section {
+    padding-right: 15px;
+    padding-left: 15px;
+}
